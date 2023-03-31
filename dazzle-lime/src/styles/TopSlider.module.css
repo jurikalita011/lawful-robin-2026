@@ -1,0 +1,12 @@
+.box{
+    background-color: #FCE4EC;width: 64%;height: 60px;
+}
+.gif{
+    width:55px; padding-left:7px ;padding-top: 6px; 
+}
+.textT{
+font-size:13px; font:Helvetica;font-weight:700; margin-right: 110px;padding-top: 6px;
+}
+.textB{
+    font-size:12px; font:Helvetica;font-weight:400;padding-left: 9px;
+    }

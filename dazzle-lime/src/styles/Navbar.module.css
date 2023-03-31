@@ -1,0 +1,21 @@
+.box{
+    background-color:white; border-radius: none; width:100%; padding:4px
+}
+.logo1{
+    width:90px
+}
+.hsl{
+    width:70%; padding-left:50px; align-items:center
+}
+.hslText{
+    font-weight:700; font-family:Helvetica; letter-spacing:1px; font-size:14px
+}
+.hsr{
+    align-items:center; padding-left:105px
+}
+.vsIcon{
+    size:22px
+}
+.vsText{
+    font-weight:400;color:#333333;font-size:11px;font-family:Helvetica; letter-spacing:0.5px;vertical-align:middle
+}
