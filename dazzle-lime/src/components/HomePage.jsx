@@ -3,6 +3,7 @@ import Navbar from "./navbar/Navbar";
 import {Header,Feed} from "./heading/Heading";
 import { TopS,TopSlider } from "./slider/TopSlider";
 import { Box } from "@chakra-ui/react";
+import ProductsHomepage from "./pages/homeProductsW";
 function HomePage(){
     return(
         <>
@@ -13,7 +14,9 @@ function HomePage(){
         <Feed/>
         <TopS/>
         <TopSlider/>
+        <ProductsHomepage/>
         </Box>
+        
         </>
     )
 }
