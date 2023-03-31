@@ -3,7 +3,7 @@ function HeadingList({id,img,text}){
     return(
         <>
         <VStack>
-        <Image w='50px' src={img}/>
+        <Image  _hover={{cursor: "pointer"}} w='50px' src={img}/>
         <Text fontFamily={'Helvetica'} fontSize='10px'>{text}</Text>
         </VStack>
         </>

@@ -8,8 +8,10 @@ function Header(){
         <Box w='60%' ml='40px'>
            <Container>
            <HStack spacing='50px'>
-                <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px'>WOMEN</Text>
-                <Text>MEN</Text>
+                <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px' _hover={{ cursor: "pointer" }}textDecoration={"underline"}textDecorationColor={"green"}>
+            WOMEN
+            </Text>
+                <Text opacity="70%">MEN</Text>
             </HStack>
             </Container>
         </Box>
@@ -36,14 +38,14 @@ function Feed(){
         <>
         <Box pb='40px'>
             <Flex>
-            <HStack pl='210px' spacing='18px'>
+            <HStack pl='210px' spacing='18px' >
             <VStack>
-                  <Image w='50px'  src="https://img1.junaroad.com//assets/images/mobileNotif/img-1628498908811.jpg"/>
+                  <Image  _hover={{cursor: "pointer"}} w='50px' src="https://img1.junaroad.com//assets/images/mobileNotif/img-1628498908811.jpg"/>
                   <Text fontFamily={'Helvetica'} fontSize='10px'>MY FEED</Text>
                 </VStack>
                 <Text fontSize='30px' fontWeight='200' pb='10px' fontFamily='revert-layer'>|</Text>
                 <VStack>
-                  <Image w='50px' border={"1px solid green"} borderRadius='30px' src="https://img0.junaroad.com/images/icons/women/kurtas.png"/>
+                  <Image  _hover={{cursor: "pointer"}} w='50px' border={"1px solid green"} borderRadius='30px' src="https://img0.junaroad.com/images/icons/women/kurtas.png"/>
                   <Text fontFamily={'Helvetica'} fontSize='10px'>KURTAS</Text>
                 </VStack>
                 </HStack>
