@@ -12,7 +12,7 @@ function HeaderM(){
                 <Link to="/"><Text opacity="70%">
             WOMEN
             </Text></Link>
-                <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px' _hover={{ cursor: "pointer" }}textDecoration={"underline"}textDecorationColor={"green"}>MEN</Text>
+                <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px' _hover={{ cursor: "pointer" }}textDecoration={"underline"}textDecorationColor={"green"} textUnderlineOffset={"3px"}>MEN</Text>
             </HStack>
             </Container>
         </Box>
@@ -43,7 +43,7 @@ function FeedM(){
                 </VStack>
                 <Text fontSize='30px' fontWeight='200' pb='10px' fontFamily='revert-layer'>|</Text>
                 <VStack>
-                  <Image  _hover={{cursor: "pointer"}} w='50px' border={"1px solid green"} borderRadius='30px' src="https://img0.junaroad.com/images/icons/men/tshirts.png"/>
+                  <Image  _hover={{cursor: "pointer"}} w='60px' padding={"5px"} border={"1px solid green"}  borderRadius='30px' src="https://img0.junaroad.com/images/icons/men/tshirts.png"/>
                   <Text fontFamily={'Helvetica'} fontSize='10px'>T-SHIRT</Text>
                 </VStack>
                 </HStack>

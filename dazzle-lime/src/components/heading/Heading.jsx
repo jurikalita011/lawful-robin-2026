@@ -9,7 +9,7 @@ function Header(){
         <Box w='60%' ml='40px'>
            <Container>
            <HStack spacing='50px'>
-               <Link to={"/"}> <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px' _hover={{ cursor: "pointer" }}textDecoration={"underline"}textDecorationColor={"green"}>
+               <Link to={"/"}> <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px' _hover={{ cursor: "pointer" }}textDecoration={"underline"}textDecorationColor={"green"} textUnderlineOffset={"3px"} >
             WOMEN
             </Text></Link>
             <Link to="/homeM"><Text opacity="70%">MEN</Text></Link>
@@ -46,7 +46,7 @@ function Feed(){
                 </VStack>
                 <Text fontSize='30px' fontWeight='200' pb='10px' fontFamily='revert-layer'>|</Text>
                 <VStack>
-                  <Image  _hover={{cursor: "pointer"}} w='50px' border={"1px solid green"} borderRadius='30px' src="https://img0.junaroad.com/images/icons/women/kurtas.png"/>
+                  <Image  _hover={{cursor: "pointer"}} w='60px' padding={"5px"} border={"1px solid green"} borderRadius='30px' src="https://img0.junaroad.com/images/icons/women/kurtas.png"/>
                   <Text fontFamily={'Helvetica'} fontSize='10px'>KURTAS</Text>
                 </VStack>
                 </HStack>
