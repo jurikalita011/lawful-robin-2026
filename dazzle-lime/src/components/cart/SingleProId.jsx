@@ -3,7 +3,6 @@ import { useParams} from "react-router-dom";
 import { Card,CardBody, CardFooter, Image, Stack,Text, Button, Box } from '@chakra-ui/react'
 import {BsWhatsapp} from "react-icons/bs"
 import {TbJewishStar} from "react-icons/tb"
-import { useContext } from "react";
 import ProductsNav from "../navbar/productsNav";
 import axios from "axios";
 
@@ -12,7 +11,6 @@ function SingleProductId() {
   const[toggle,setToggle]=useState(true)
   const {id} = useParams();
 
-//   https://good-rose-iguana-cape.cyclic.app/womensAllProducts/${id}
   const getData = async () => {
     try {
       await axios
@@ -40,7 +38,7 @@ console.log(data)
   return (
     <>
     <ProductsNav/>
-       <Card width="80%"  margin="auto"  height="82vh"
+       <Card width="80%"  margin="auto"  height="80vh" pt={"5px"}
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
 >

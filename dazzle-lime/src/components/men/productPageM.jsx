@@ -58,7 +58,7 @@ const ProductsHomepageM = () => {
                 {el.followers} Followers
               </Text>
             </Stack>
-            <Stack position="relative" bottom="40px" direction="row" pl="15px">
+            <Stack position="relative" pl="15px" bottom="40px" direction="row" >
               <Stack align="center">
                 <Stack
                   _hover={{cursor: "pointer"}}
