@@ -10,6 +10,13 @@
 .hslText{
     font-weight:700; font-family:Helvetica; letter-spacing:1px; font-size:14px
 }
+.hslText:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+    text-decoration-color:#AD1457 ;
+    color: #D81B60;
+}
 .hsr{
     align-items:center; padding-left:105px
 }
