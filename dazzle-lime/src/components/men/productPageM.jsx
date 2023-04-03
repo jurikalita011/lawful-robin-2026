@@ -3,9 +3,9 @@ import { useState,useEffect } from "react";
 import {Stack,SimpleGrid,Text,useBreakpointValue,Avatar, Center,Image} from "@chakra-ui/react";
 import axios from "axios";
 import { BsHeart, BsWhatsapp } from "react-icons/bs";
-import Loading from "./loading";
+import Loading from "../pages/loading";
 
-const ProductsHomepage = () => {
+const ProductsHomepageM = () => {
   const [data, setData] = useState([]);
 
   const handleWhatsapp = (link) => {
@@ -18,7 +18,7 @@ const ProductsHomepage = () => {
   const getData = async () => {
     try {
       await axios
-        .get(`https://good-rose-iguana-cape.cyclic.app/homepageProducts`)
+        .get(`https://good-rose-iguana-cape.cyclic.app/menProducts`)
         .then((res) => setData(res.data));
     } catch (error) {
       console.log(error);
@@ -58,17 +58,17 @@ const ProductsHomepage = () => {
                 {el.followers} Followers
               </Text>
             </Stack>
-            <Stack position="relative" bottom="40px" direction="row" pl="30px">
+            <Stack position="relative" bottom="40px" direction="row" pl="15px">
               <Stack align="center">
                 <Stack
                   _hover={{cursor: "pointer"}}
+                  align="center"
+                  justify="center"
                   bg="white"
                   w="50px"
                   h="50px"
                   borderRadius="50%"
                   boxShadow="2px 1px 5px 1px"
-                  align="center"
-                  justify="center"
         
                 >
                   <BsHeart color="#D3145A" fontSize="32px" />
@@ -107,4 +107,4 @@ const ProductsHomepage = () => {
   );
 };
 
-export default ProductsHomepage;
+export default ProductsHomepageM;

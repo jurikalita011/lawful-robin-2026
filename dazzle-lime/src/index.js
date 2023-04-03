@@ -5,12 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react'
 import { customTheme } from './themes/theme';
+import { BrowserRouter } from 'react-router-dom';
+// import CartContextProvider from './components/cart/cartContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <BrowserRouter>
   <ChakraProvider theme={customTheme}>
+    {/* <CartContextProvider> */}
     <App />
+    {/* </CartContextProvider> */}
   </ChakraProvider>
-    
+  </BrowserRouter>
   
 );
 
