@@ -1,6 +1,7 @@
 import { Container,Text , HStack, Box,VStack,Flex} from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 import HeadingList from "./HeadingList";
+import { Link } from "react-router-dom";
 function Header(){
     
     return(
@@ -8,10 +9,10 @@ function Header(){
         <Box w='60%' ml='40px'>
            <Container>
            <HStack spacing='50px'>
-                <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px' _hover={{ cursor: "pointer" }}textDecoration={"underline"}textDecorationColor={"green"}>
+               <Link to={"/"}> <Text fontFamily='Helvetica' letterSpacing='1px' fontSize='13px' _hover={{ cursor: "pointer" }}textDecoration={"underline"}textDecorationColor={"green"}>
             WOMEN
-            </Text>
-                <Text opacity="70%">MEN</Text>
+            </Text></Link>
+            <Link to="/homeM"><Text opacity="70%">MEN</Text></Link>
             </HStack>
             </Container>
         </Box>

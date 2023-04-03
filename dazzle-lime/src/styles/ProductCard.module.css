@@ -1,0 +1,36 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+  }
+  
+  .price {
+    display: flex;
+    width: 52%;
+    justify-content: left;
+    align-items: left;
+    gap: 5px;
+    margin-top: 3px;
+  }
+  
+  .newPrice {
+    font-size: 15px;
+    color: #333333;
+    font-weight: bold;
+  }
+  .originalPrice {
+    font-size: 14px;
+    color: #aaa2a2;
+    font-weight: 700;
+  }
+  
+  .offer {
+    font-size: 14px;
+    font-weight: 700;
+    color: #6fa40c;
+  }
+  .stylist {
+    color: #999999;
+    font-size: 13px;
+    padding-bottom: 2px;
+  }
+  
